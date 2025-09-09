@@ -56,6 +56,11 @@ Internet Gateway
    region = "us-west-2"
    instance_type = "t3.micro"
    ```
+OR 
+Change defaults in variables .tf
+
+OR 
+set variables in CLI as you run terraform
 
 3. **Deploy infrastructure**
    ```bash
