@@ -72,20 +72,7 @@ Internet Gateway
    ```bash
    terraform destroy
    ```
-
-## Configuration Options
-
-### Variables (terraform.tfvars)
-
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `region` | us-east-1 | AWS region |
-| `ami_id` | ami-0c02fb55956c7d316 | Amazon Linux 2023 AMI |
-| `instance_type` | t2.micro | EC2 instance size |
-| `vpc_cidr` | 10.0.0.0/16 | VPC IP range |
-| `public_subnet_cidr` | 10.0.1.0/24 | Public subnet IP range |
-| `availability_zone` | us-east-1a | AZ for subnet placement |
-
+   
 ### Outputs
 
 - `vpc_id`: ID of the created VPC
@@ -192,7 +179,3 @@ terraform state list
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
