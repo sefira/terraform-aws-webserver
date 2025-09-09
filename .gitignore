@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfplan.*
+
+# Sensitive files
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
